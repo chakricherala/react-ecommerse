@@ -4,7 +4,7 @@ export const Slider = () => {
   return (
     <div>
       <h2> Featured Products </h2>
-      
+      {/* this is a carousel file from the bootstrap */}
       <div class="container">
         <div id="featured-products-carousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
