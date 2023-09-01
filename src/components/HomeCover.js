@@ -3,9 +3,11 @@ import React from 'react'
 export const HomeCover = () => {
   return (
     <div className='cover'>
-      {/* <img src='/images/Background.jpg' alt='backgroundimage' /> */}
-      <div className='flow'>
-        <h1> Vanilla </h1>
+      {/* this is the background image */}
+      <img src='/images/Background.jpg' className='coverimage' alt='backgroundimage' />
+      <div className='covertxt'>
+        <h1>Vanilla</h1> 
+        <p>Shop the best fasion</p>
       </div>
     </div>
   )

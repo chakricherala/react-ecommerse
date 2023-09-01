@@ -3,6 +3,7 @@ import React from 'react'
 export const Footer = () => {
     return (
         <div className='foot'>
+            {/* this is an footer page */}
             <br></br>
             <div class="row">
                 <div class="col-md-3 sm-1 text-center">

@@ -7,10 +7,10 @@ import Footer from './Footer';
 export const Home = () => {
   return (
     <div>
-        {/* <Header /> */}
+        <Header />
         <HomeCover />
-        {/* <Slider /> */}
-        {/* //////<Footer /> */}
+        <Slider />
+        <Footer />
     </div>
   )
 }
